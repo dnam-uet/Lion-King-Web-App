@@ -1,0 +1,68 @@
+
+/*Header CSS*/
+
+.header__head{
+	background-color: #CD1818;
+	height: 56px;
+}
+
+.header__menu{
+	height: 36px;
+	background-color: #252525;
+}
+
+
+/*Element of header__head*/
+
+#header__logo {
+    width: 50px;
+    height: 50px;
+    background-image: url(image/logo.png);
+    background-size: cover;
+    background-position: center;
+    margin: 9px 0px 0px 0px;
+}
+
+.header__search-input{
+	height: 38px;
+    width: 555px;
+    padding: 6px 10px;
+    margin: 9px 0px 9px 60px;
+    border-radius: 3px;
+    border: none;
+    flex-grow: 1
+}
+
+.button{
+	cursor: pointer;
+	border: none;
+	border-radius: 3px;
+}
+
+.button-search{
+	height: 38px;
+	width: 38px;
+	background-color: #333;
+}
+
+.fas{
+	color: #fff;
+}
+
+.shopping-cart{
+	margin: 9px 0px;
+	width: 50px;
+	height: 38px;
+	background-color: #CD1818;
+}
+
+/*Element header__menu*/
+
+.header__menu{
+	line-height: 36px;
+}
+
+.link__laptop{
+	text-decoration: none;
+	color: #fff;
+}
