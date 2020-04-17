@@ -73,4 +73,42 @@
 .link__laptop{
 	text-decoration: none;
 	color: #fff;
+	display: block;
+}
+
+.link__laptop{
+	position: relative;
+}
+
+/*Sub menu of header*/
+.sub__menu{
+	list-style-type: none;
+	line-height: 36px;
+	position: absolute;
+	display: none;
+}
+
+.sub__menu-element{
+	width: 120px;
+	height: 100%;
+	background-color: #999;
+}
+
+.header__laptop:hover .sub__menu{
+	display: block;
+	margin: 0px !important;
+}
+
+.sub2__menu{
+	text-align: center;
+	list-style-type: none;
+	line-height: 36px;
+	position: absolute;
+	display: none;
+}
+
+.sub__menu-element:hover .sub2__menu{
+	display: block;
+	left: 100%;
+	top: 50%;
 }
