@@ -92,6 +92,8 @@
 	width: 120px;
 	height: 100%;
 	background-color: #999;
+	border-bottom: 1px #fff solid;
+	border-radius: 2px;
 }
 
 .header__laptop:hover .sub__menu{
