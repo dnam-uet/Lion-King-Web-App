@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="stylesheet" type="text/css" href="./css/header.css">
 	<link rel="stylesheet" type="text/css" href="./css/body.css">
+	<link rel="stylesheet" type="text/css" href="./css/footer.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -62,15 +63,25 @@
 	<div class="main">
 		<div class="main__distance1"></div>
 		<div class="main__slideshow">
-			<div class="main__slideshow-element slide0"></div>
-			<div class="main__slideshow-element slide1"></div>
-			<div class="main__slideshow-element slide2"></div>
-			<div class="main__slideshow-element slide3"></div>
+			<div class="main__slideshow-element">
+				<a href="index.html" class="link__slide fade"><img src="./css/image/SlideShow/slide_1.jpg"></a>
+			</div>
+			<div class="main__slideshow-element">
+				<a href="index.html" class="link__slide fade"><img src="./css/image/SlideShow/slide_2.jpg"></a>
+			</div>
+			<div class="main__slideshow-element">
+				<a href="index.html" class="link__slide fade"><img src="./css/image/SlideShow/slide_3.jpg"></a>
+			</div>
+			<div class="main__slideshow-element">
+				<a href="index.html" class="link__slide fade"><img src="./css/image/SlideShow/slide_4.jpg"></a>
+			</div>
+			<button class="prev" onclick="plusSlides(-1)"><i class="fa fa-arrow-left"></i></button>
+			<button class="next" onclick="plusSlides(1)"><i class="fa fa-arrow-right"></i></button>
 			<div class="main__slideshow-dots">
-				<span class="dot" onclick="currentSlide(0)"></span>
 				<span class="dot" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
 				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
 			</div>
 		</div>
 		<div class="main__distance"></div>
@@ -105,7 +116,60 @@
 			
 		</div>
 	</div>
-	<div class="footer"></div>
-	<script type="text/javascript" src="./js/main.js"></script>
+<!-- 	<div class="footer">
+		<div class="inner-footer">
+
+			<div class="footer-items">
+				<h1>LION KING</h1>
+				<p>
+					Mua laptop LION KING<br>giá rẻ số 1, chất lượng số 1.<br>Hãy đến với chúng tôi,<br>để trải nghiệm những điều tuyệt vời nhất.
+				</p>
+			</div>
+			<div class="footer-items">
+				<h2>Truy Cập Nhanh </h2>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li>Trang Chủ</li></a>
+					<a href=""><li>Sản Phẩm</li></a>
+					<a href=""><li>Dịch Vụ</li></a>
+					<a href="https://www.facebook.com/daynholongthongg"><li>Liên Hệ</li></a>
+				</ul>
+			</div>
+			
+			<div class="footer-items">
+				<h2>Tutorial </h2>
+				<div class="border"></div>
+				<ul>
+					<a href=""><li>C#</li></a>
+					<a href=""><li>C++ </li></a>
+					<a href=""><li>C</li></a>
+					<a href=""><li>Pascal</li></a>
+					<a href=""><li>MsDOS</li></a>
+				</ul>
+			</div>
+			
+
+			<div class="footer-items">
+				<h2>Liên Hệ </h2>
+				<div class="border"></div>
+				<ul>
+					<li><i class="fa fa-map-marker" aria-hidden='true'></i>   144, Xuan Thuy, Cau Giay, Ha Noi </li>
+					<li><i class="fa fa-phone" aria-hidden='true'></i>   032-645-7789 </li>
+					<li><i class="fa fa-envelope" aria-hidden='true'></i>   taquangngoc.hh3@gmail.com </li>
+				</ul>
+				<div class="social-media">
+					<a href=""><i class="fa fa-facebook" aria-hidden='true'></i></a>
+					<a href=""><i class="fa fa-instagram" aria-hidden='true'></i></a>
+					<a href=""><i class="fa fa-twitter" aria-hidden='true'></i></a>
+					<a href=""><i class="fa fa-google-plus" aria-hidden='true'></i></a>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer-bottom">
+			Copyright by &copy; LION KING
+		</div>
+	</div> -->
+	<script type="text/javascript" src="./js/body.js"></script>
 </body>
 </html>
