@@ -1,0 +1,81 @@
+.product {
+	width: 300px;
+	height: 500px;
+	transition: all 0.5s;
+	background-color: #fff;
+	flex-grow: 1;
+}
+.product:hover {
+	transform: scale(1.08);
+	border: 1px #ccc solid;
+}
+.product-link-image {
+	width: 220px;
+	height: 215px;
+	margin: 0px 40px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(image/laptop.jpg);
+}
+.product-name {
+  padding-left: 30px;
+  font-size: 14px;
+}
+.product-price {
+  margin: 0px 30px 20px 30px;
+  padding:0px 0px 20px 0px;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+}
+.product-link {
+  text-decoration: none;
+  color: #777;
+}
+.product-link:hover {
+  color: #333;
+}
+.product-stat {
+  list-style-type: none;
+  margin-left: 30px;
+  color: #888;
+  font-size: 12px;
+}
+.product-stat-component{
+  display: flex;
+  line-height: 12px
+}
+.product-stat-component p{
+  margin-bottom: 10px;
+}
+.produc-stat-title{
+  flex-grow: 1;
+}
+.product-stat-details {
+  display: inline-table;
+}
+
+/*Purchase*/
+
+.product:hover .product-purchase{
+	display: block;
+}
+
+.product-purchase {
+	text-align: center;
+	margin-top: 5px;
+	display: none;
+	transition: all 0.5s;
+}
+.button-purchase {
+	border-radius: 50px;
+	width: 35px;
+	height: 32px;
+	background-color: rgb(205,24,24);
+	transition: all 0.5s; 
+	border: 0px;
+}
+.button-purchase:hover {
+	background-color: #5770b0;
+}

@@ -54,6 +54,7 @@
 	transition: all 0.6s ease;
 	margin: 0px 8px; 
 	display: none;
+	cursor: pointer;
 }
 
 .prev:hover , .next:hover{
@@ -213,4 +214,16 @@
 
 .hp{
 	background-image: url(image/ThuonghieuLaptop/hp.png);
+}
+
+
+/*Product star*/
+
+.main__star{
+	width: 1200px;
+	height: 500px;
+	background-color: #fff;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	display: flex;
 }
