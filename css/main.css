@@ -32,8 +32,9 @@ body{
 
 .footer{
 	width: 100%;
-	height: 200px;
+	height: 250px;
 	background-color: #fff;
+	color: #888;
 }
 
 /*Scroll to top*/
