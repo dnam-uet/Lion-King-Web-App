@@ -61,7 +61,19 @@
 	</div>
 	<div class="main">
 		<div class="main__distance1"></div>
-		<div class="main__slideshow">Slide Show</div>
+		<div class="main__slideshow">
+			<div class="main__slideshow-element slide0"></div>
+			<div class="main__slideshow-element slide1"></div>
+			<div class="main__slideshow-element slide2"></div>
+			<div class="main__slideshow-element slide3"></div>
+			<div class="main__slideshow-dots">
+				<span class="dot" onclick="currentSlide(0)"></span>
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+			</div>
+		</div>
+		<div class="main__distance"></div>
 		<div class="main__distance"></div>
 		<div class="component__main">
 			<div class="main__title">THƯƠNG HIỆU LAPTOP</div>
@@ -94,5 +106,6 @@
 		</div>
 	</div>
 	<div class="footer"></div>
+	<script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>

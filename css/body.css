@@ -40,6 +40,54 @@
 }
 
 
+/*Slide show css*/
+
+.main__slideshow-element{
+	width: 1200px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	display: none;
+}
+
+.slide0{
+	background-image: url(image/SlideShow/slide_1.jpg);
+}
+
+.slide1{
+	background-image: url(image/SlideShow/slide_2.jpg);
+}
+
+.slide2{
+	background-image: url(image/SlideShow/slide_3.jpg);
+}
+
+.slide3{
+	background-image: url(image/SlideShow/slide_4.jpg);
+}
+
+.main__slideshow-dots{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #f3f3f3; 
+}
+
+.dot{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #aaa;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.dot:hover{
+	background-color: #666;
+}
+
+
 /*Thuong hieu laptop*/
 
 .main__laptop-component{
