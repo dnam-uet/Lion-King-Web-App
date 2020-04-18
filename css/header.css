@@ -86,6 +86,9 @@
 	line-height: 36px;
 	position: absolute;
 	display: none;
+	z-index: 2;
+	animation-name: submenu;
+	animation-duration: 0.6s;
 }
 
 .sub__menu-element{
@@ -93,7 +96,8 @@
 	height: 100%;
 	background-color: #999;
 	border-bottom: 1px #fff solid;
-	border-radius: 2px;
+	border-radius: 3.5px;
+	z-index: 2;
 }
 
 .header__laptop:hover .sub__menu{
@@ -107,10 +111,27 @@
 	line-height: 36px;
 	position: absolute;
 	display: none;
+	animation-name: submenu;
+	animation-duration: 0.6s;
+}
+
+.sub__menu-element:hover{
+	opacity: 0.98;
+	background-color: #777;
 }
 
 .sub__menu-element:hover .sub2__menu{
 	display: block;
 	left: 100%;
 	top: 50%;
+}
+
+@keyframes submenu{
+	0%{
+		opacity: 0.4;
+		transform-origin: top center;
+	}
+	100%{
+		opacity: 1;
+	}
 }
