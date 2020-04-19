@@ -1,10 +1,11 @@
 
 // Check submit
-function checkSubmit(){
+function checkSubmit() {
 	var name = document.getElementById("txtName").value;
 	var phone = document.getElementById("txtPhone").value;
 	var position = document.getElementById("txtPosition").value;
-	if(name == '' || phone == '' || position == '') return false;
+	if(name == '' || phone == '' || position == '') {
+	    return false;
+	}
+	else return true;
 }
-
-console.log(name.value + '\n' + phone.value + '\n' + position.value);
