@@ -78,4 +78,5 @@
 }
 .button-purchase:hover {
 	background-color: #5770b0;
+	cursor: pointer;
 }
