@@ -75,6 +75,7 @@
 	background-color: rgb(205,24,24);
 	transition: all 0.5s; 
 	border: 0px;
+	outline: none;
 }
 .button-purchase:hover {
 	background-color: #5770b0;
