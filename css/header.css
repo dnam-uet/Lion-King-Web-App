@@ -52,7 +52,14 @@
 	width: 38px;
 	background-color: #333;
 }
-
+/*Link to sign in -sign up page*/
+.customer{
+	margin-top: 15px;
+}
+.customer a{
+	text-decoration: none;
+	color: white;
+}
 .shopping-cart{
 	margin: 9px 0px;
 	width: 50px;
