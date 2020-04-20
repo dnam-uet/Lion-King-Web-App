@@ -7,22 +7,22 @@ function checkSubmit() {
 	var position = document.getElementById("txtAddress");
 
 	if(name.value == ''){
-		name.style.border = "1px solid red";
+		name.style.border = "2px solid red";
 	}
 	else{
-		name.style.border = "1px solid green";
+		name.style.border = "2px solid green";
 	}
 	if(phone.value == ''){
-		phone.style.border = "1px solid red";
+		phone.style.border = "2px solid red";
 	}
 	else{
-		phone.style.border = "1px solid green";
+		phone.style.border = "2px solid green";
 	}
 	if(position.value == ''){
-		position.style.border = "1px solid red";
+		position.style.border = "2px solid red";
 	}
 	else{
-		position.style.border = "1px solid green";
+		position.style.border = "2px solid green";
 	}
 	if(name.value != '' && phone.value != '' && position.value != ''){
 		status = true;
