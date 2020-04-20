@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/header.css">
 	<link rel="stylesheet" type="text/css" href="./css/body.css">
 	<link rel="stylesheet" type="text/css" href="./css/footer.css">
+	<link rel="stylesheet" type="text/css" href="./css/form.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/componentLaptop.css">
 </head>
@@ -63,26 +64,30 @@
 		</div>
 	</div>
 	<div class="main main__form">
-		<div class="shopping__tittle">
-			<h2>Giỏ hàng của bạn</h2>
+		<div class="shopping__title">
+			<h2 class="shopping__title-text">Giỏ hàng của bạn</h2>
 		</div>
 		<div class="shopping__form">
 			<form id="shopping__form" method="get" action="success.html" onsubmit="return checkSubmit()">
 				<div class="shopping__form-component">
-					<label class="shopping__form-label">Họ và tên</label>
-					<input type="text" name="txtName" id="txtName">
+					<div class="label__input"><label class="shopping__form-label"><b>Họ và tên:</b></label></div>
+					<input type="text" name="txtName" id="txtName" placeholder="Nhập họ và tên" class="input__form">
+					<div id="noti error-name"></div>
 				</div>
 				<div class="shopping__form-component">
-					<label class="shopping__form-label">Số điện thoại <span>(*)</span></label>
-					<input type="text" name="txtPhone" id="txtPhone">
+					<div class="label__input"><label class="shopping__form-label"><b>Số điện thoại:</b> <span>(*)</span></label></div>
+					<input type="text" name="txtPhone" id="txtPhone" placeholder="Nhập số điện thoại" class="input__form">
+					<div id="noti error-phone"></div>
 				</div>
 				<div class="shopping__form-component">
-					<label class="shopping__form-label">Địa chỉ:</label>
-					<input type="text" name="txtPosition" id="txtPosition">
+					<div class="label__input"><label class="shopping__form-label"><b>Địa chỉ:</b></label></div>
+					<input type="text" name="txtAddress" id="txtAddress" placeholder="Nhập địa chỉ" class="input__form">
+					<div id="noti error-address"></div>
 				</div>
-				<div>
-					<input type="submit" name="btnSubmit" value="Mua hàng" >
-					<button id="cancel">Hủy mua</button>
+				<br>
+				<div class="shopping__form-component">
+					<input type="submit" name="btnSubmit" id="button-submit" value="Mua hàng" >
+					<a href="index.html" id="cancel">Hủy mua</a>
 				</div>
 			</form>
 		</div>

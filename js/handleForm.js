@@ -1,11 +1,31 @@
 
 // Check submit
 function checkSubmit() {
-	var name = document.getElementById("txtName").value;
-	var phone = document.getElementById("txtPhone").value;
-	var position = document.getElementById("txtPosition").value;
-	if(name == '' || phone == '' || position == '') {
-	    return false;
+	var status = false;
+	var name = document.getElementById("txtName");
+	var phone = document.getElementById("txtPhone");
+	var position = document.getElementById("txtAddress");
+
+	if(name.value == ''){
+		name.style.border = "1px solid red";
 	}
-	else return true;
+	else{
+		name.style.border = "1px solid green";
+	}
+	if(phone.value == ''){
+		phone.style.border = "1px solid red";
+	}
+	else{
+		phone.style.border = "1px solid green";
+	}
+	if(position.value == ''){
+		position.style.border = "1px solid red";
+	}
+	else{
+		position.style.border = "1px solid green";
+	}
+	if(name.value != '' && phone.value != '' && position.value != ''){
+		status = true;
+	}
+	return status;
 }
