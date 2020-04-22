@@ -7,6 +7,9 @@
 
 body{
 	background-color: #f3f3f3;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 /*Header css*/
@@ -23,7 +26,6 @@ body{
 
 .main{
 	width: 100%;
-	height: 1100px;
 	background-color: #F3F3F3;
 	color: #2d2d2d;
 }
@@ -32,9 +34,10 @@ body{
 
 .footer{
 	width: 100%;
-	height: 250px;
+	display: block;
 	background-color: #fff;
 	color: #888;
+	margin-top: auto;
 }
 
 /*Scroll to top*/
