@@ -4,6 +4,7 @@
 	transition: all 0.5s;
 	background-color: #fff;
 	flex-grow: 1;
+	border: 0.8px solid grey;
 }
 .product:hover {
 	transform: scale(1.08);
