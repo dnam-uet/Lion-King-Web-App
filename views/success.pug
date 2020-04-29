@@ -1,0 +1,124 @@
+extends ./layout/common-layout
+block content
+	button#scroll__top
+		i.fa.fa-arrow-up
+	.header
+		.header__head
+			.component__header
+				.header__logo
+					a(href='/')
+						#header__logo
+				.header__search
+					form(method='get', action='/search')
+						input.header__search-input(type='text', name='txtSearch', placeholder='Nhập tên máy tính cần tìm', maxlength='50')
+						button.button.button-search(type='submit')
+							i.fa.fa-search
+				div
+					a(href='/shopping')
+						button#shopping-cart.button
+							i.fa.fa-shopping-cart.fa-2x
+		.header__menu
+			.component__header
+				.header__laptop#laptop-logo
+					a.link__laptop(href='#')
+						i.fa.fa-laptop
+						ul.sub__menu
+							li.sub__menu-element
+								a.link__laptop(href='/product/apple')
+									i.fa.fa-apple
+									|  MacOS
+							li.sub__menu-element
+								a.link__laptop.link__sub2(href='#')
+									i.fa.fa-windows
+									|  Windows
+									ul.sub2__menu
+										li.sub__menu-element
+											a.link__laptop(href='/product/dell') Dell
+										li.sub__menu-element
+											a.link__laptop(href='/product/asus') Asus
+										li.sub__menu-element
+											a.link__laptop(href='/product/lenovo') Lenovo
+										li.sub__menu-element
+											a.link__laptop(href='/product/hp') HP
+				.header__laptop
+					a.link__laptop(href='/product/apple')
+						i.fa.fa-apple
+						|  MacOS
+				.header__laptop
+					a.link__laptop(href='#')
+						i.fa.fa-windows
+						|  Windows
+						ul.sub__menu(style='text-align: center;')
+							li.sub__menu-element
+								a.link__laptop(href='/product/dell') Dell
+							li.sub__menu-element
+								a.link__laptop(href='/product/asus') Asus
+							li.sub__menu-element
+								a.link__laptop(href='/product/lenovo') Lenovo
+							li.sub__menu-element
+								a.link__laptop(href='/product/hp') HP
+				.header__laptop
+					a.link__laptop(href='https://www.facebook.com/dnam.2507', target='_blank')
+						i.fa.fa-info
+						|  Th&ocirc;ng tin cho ch&uacute;ng t&ocirc;i
+	.main
+		.submit__success
+			.congratulation Ch&uacute;c m&#x1EEB;ng b&#x1EA1;n mua h&agrave;ng th&agrave;nh c&ocirc;ng.
+			a.return(href='/') Quay l&#x1EA1;i trang ch&#x1EE7;
+	.main__distance
+	.footer#done
+		.inner-footer
+			.footer-logo
+				a(href='/')
+					#footer-logo
+			.footer-items
+				.footer-title LION KING 
+				.border
+				.footer-content
+					| Mua laptop LION KING
+					br
+					| gi&aacute; r&#x1EBB; s&#x1ED1; 1, ch&#x1EA5;t l&#x1B0;&#x1EE3;ng s&#x1ED1; 1.
+					br
+					| H&atilde;y &dstrok;&#x1EBF;n v&#x1EDB;i ch&uacute;ng t&ocirc;i,
+					br
+					| &dstrok;&#x1EC3; tr&#x1EA3;i nghi&#x1EC7;m nh&#x1EEF;ng &dstrok;i&#x1EC1;u tuy&#x1EC7;t v&#x1EDD;i nh&#x1EA5;t.
+			.footer-items
+				.footer-title Truy C&#x1EAD;p Nhanh
+				.border
+				.footer-icon
+					.footer-icon1
+						a(href='/') Trang ch&#x1EE7; 
+					.footer-icon1
+						a(href='/') S&#x1EA3;n ph&#x1EA9;m 
+					.footer-icon1
+						a(href='/') D&#x1ECB;ch v&#x1EE5; 
+					.footer-icon1
+						a(href='/') Li&ecirc;n h&#x1EC7; 
+			.footer-items
+				.footer-title Li&ecirc;n H&#x1EC7;
+				.border
+				.footer-icon
+					.footer-icon2
+						i.fa.fa-map-marker(aria-hidden='true')
+						|   144, Xu&acirc;n Th&#x1EE7;y, C&#x1EA7;u Gi&#x1EA5;y, H&agrave; N&#x1ED9;i
+					.footer-icon2
+						i.fa.fa-phone(aria-hidden='true')
+						|   Phone
+					.footer-icon2
+						i.fa.fa-envelope(aria-hidden='true')
+						|   email@gmail.com
+				.social-media
+					a(href='/')
+						i.fa.fa-facebook(aria-hidden='true')
+					a(href='/')
+						i.fa.fa-instagram(aria-hidden='true')
+					a(href='/')
+						i.fa.fa-twitter(aria-hidden='true')
+					a(href='/')
+						i.fa.fa-google-plus(aria-hidden='true')
+		.footer-bottom
+			| Copyright by &copy; LION KING
+	script(type='text/javascript', src='/js/header.js')
+	script(type='text/javascript', src='/js/body.js')
+	script(type='text/javascript', src='/js/cart.js')
+

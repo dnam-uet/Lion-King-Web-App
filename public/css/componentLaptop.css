@@ -4,7 +4,7 @@
 	transition: all 0.5s;
 	background-color: #fff;
 	flex-grow: 1;
-	border: 0.8px solid grey;
+	/*border: 0.8px solid grey;*/
 }
 .product:hover {
 	transform: scale(1.08);
@@ -20,105 +20,105 @@
 }
 
 .asuss {
-	background-image: url(image/laptop.jpg);
+	background-image: url(/image/laptop.jpg);
 }
 .mac1 {
 	margin-left: auto;
   	margin-right: auto;
-	background-image: url(image/mac/mac-air19.png);	
+	background-image: url(/image/mac/mac-air19.png);	
 }
 .mac2 {
 	margin-left: auto;
   	margin-right: auto;
-	background-image: url(image/mac/mac-air20.png);	
+	background-image: url(/image/mac/mac-air20.png);	
 }
 .mac3 {
 	margin-left: auto;
   	margin-right: auto;
-	background-image: url(image/mac/mac-pro19.png);	
+	background-image: url(/image/mac/mac-pro19.png);	
 }
 .mac4 {
 	margin-left: auto;
   	margin-right: auto;
-	background-image: url(image/mac/mac-pro20.png);	
+	background-image: url(/image/mac/mac-pro20.png);	
 }
 .lenovo1 {
 	margin-left: auto;
   	margin-right: auto;
-	background-image: url(image/lenovo/le1.png);	
+	background-image: url(/image/lenovo/le1.png);	
 }
 .lenovo2 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/lenovo/le2.png);	
+  	background-image: url(/image/lenovo/le2.png);	
 }
 .lenovo3 {
-	background-image: url(image/lenovo/le3.png);	
+	background-image: url(/image/lenovo/le3.png);	
 }
 .lenovo4 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/lenovo/le4.png);	
+  	background-image: url(/image/lenovo/le4.png);	
 }
 .dell1 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/dell/dell1.png);	
+  	background-image: url(/image/dell/dell1.png);	
 }
 .dell2 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/dell/dell2.png);	
+  	background-image: url(/image/dell/dell2.png);	
 }
 .dell3 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/dell/dell3.png);	
+  	background-image: url(/image/dell/dell3.png);	
 }
 .dell4 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/dell/dell4.png);	
+  	background-image: url(/image/dell/dell4.png);	
 }
 .hp1 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/hp/hp1.png);	
+  	background-image: url(/image/hp/hp1.png);	
 }
 .hp2 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/hp/hp2.png);	
+  	background-image: url(/image/hp/hp2.png);	
 }
 .hp3 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/hp/hp3.png);	
+  	background-image: url(/image/hp/hp3.png);	
 }
 .hp4 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/hp/hp4.png);	
+  	background-image: url(/image/hp/hp4.png);	
 }
 .asus1 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/asus/asus1.png);	
+  	background-image: url(/image/asus/asus1.png);	
 }
 .asus2 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/asus/asus2.png);	
+  	background-image: url(/image/asus/asus2.png);	
 }
 .asus3 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/asus/asus3.png);	
+  	background-image: url(/image/asus/asus3.png);	
 }
 .asus4 {
 	margin-left: auto;
   	margin-right: auto;
-  	background-image: url(image/asus/asus4.png);	
+  	background-image: url(/image/asus/asus4.png);	
 }
 .product-name {
   padding-left: 30px;
@@ -166,18 +166,18 @@
 
 .product-purchase {
 	text-align: center;
-	margin-top: 5px;
-	display: none;
+	margin-top: 2px;
 	transition: all 0.5s;
+	display: none;
 }
 .button-purchase {
 	border-radius: 50px;
+	padding: 7px 10px;
 	width: 35px;
 	height: 32px;
 	background-color: rgb(205,24,24);
 	transition: all 0.5s; 
 	border: 0px;
-	outline: none;
 }
 .button-purchase:hover {
 	background-color: #5770b0;

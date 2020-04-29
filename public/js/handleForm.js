@@ -1,5 +1,3 @@
-
-// Check submit
 function checkSubmit() {
 	var status = false;
 	var name = document.getElementById("txtName");
@@ -27,5 +25,14 @@ function checkSubmit() {
 	if(name.value != '' && phone.value != '' && position.value != ''){
 		status = true;
 	}
-	return status;
+	// return status;
+}
+function purchasedProducts() {
+	var products = []
+	for (var i =0;i< sessionStorage.length) {
+		var index = 'item' + i;
+		var data = JSON.parse(sessionStorage.getItem(index));
+		products.push(data);
+	}
+	return products;
 }

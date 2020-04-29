@@ -33,6 +33,16 @@ body{
 /*Footer css*/
 
 .footer{
+	background-color: #585454;
+	height: 200px;
+}
+.inner-footer {
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+.footer.item {
+	flex-grow: 1;
 	width: 100%;
 	display: block;
 	background-color: #fff;
